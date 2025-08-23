@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const NinjaAi = () => {
-  return (
-    <div>NinjaAi</div>
-  )
-}
+  return <div>NinjaAi</div>;
+};
 
-export default NinjaAi
+export default NinjaAi;
