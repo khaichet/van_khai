@@ -10,11 +10,12 @@ export const HeroSection = () => {
         <div className="space-y-6">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
             <span className="opacity-0 animate-fade-in"> Hi, I'm</span>
-            <span className="text-primary opacity-0 animate-fade-in-delay-1">
+            <span className="opacity-0 animate-fade-in-delay-1 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
               {" "}
               Lại Văn
             </span>
-            <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2">
+
+            <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
               Khải
             </span>
           </h1>
