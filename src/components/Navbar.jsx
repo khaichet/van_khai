@@ -52,7 +52,6 @@ export const Navbar = () => {
         </div>
         <div className="flex items-center gap-2">
           <ThemeToggle />
-
           <button
             onClick={() => setIsMenuOpen((prev) => !prev)}
             className="md:hidden p-2 text-foreground z-50"
