@@ -3,7 +3,7 @@ import { ArrowUp, Facebook, Instagram, Github } from "lucide-react";
 export const Footer = () => {
   return (
     <footer className="bg-card border-t border-border py-12 px-4 mt-12">
-      <div className="container mx-auto max-w-6xl grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div className="container mx-auto max-w-6xl grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Brand / Logo */}
         <div className="flex flex-col space-y-4">
           <h3 className="text-xl font-bold text-primary">Khuai</h3>
@@ -67,24 +67,6 @@ export const Footer = () => {
           >
             Web Development
           </a>
-        </div>
-
-        {/* Newsletter / Subscribe */}
-        <div className="flex flex-col space-y-4">
-          <h4 className="font-semibold text-primary">Subscribe</h4>
-          <p className="text-sm text-muted-foreground">
-            Get the latest updates and projects.
-          </p>
-          <div className="flex">
-            <input
-              type="email"
-              placeholder="Your email"
-              className="w-full px-3 py-2 rounded-l-md border border-input bg-background focus:outline-none focus:ring-2 focus:ring-primary"
-            />
-            <button className="px-4 py-2 bg-primary text-white rounded-r-md hover:bg-primary/90 transition-colors">
-              Subscribe
-            </button>
-          </div>
         </div>
       </div>
 

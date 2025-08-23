@@ -1,4 +1,5 @@
 import { ArrowDown } from "lucide-react";
+import avt from "../assets/avt.jpg";
 
 export const HeroSection = () => {
   return (
@@ -7,6 +8,14 @@ export const HeroSection = () => {
       className="relative min-h-screen flex flex-col items-center justify-center px-4"
     >
       <div className="container max-w-4xl mx-auto text-center z-10">
+        <div className="mb-6">
+          <img
+            src={avt}
+            alt="Avatar Khải"
+            className="w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 rounded-full mx-auto object-cover border-4 border-primary shadow-lg"
+          />
+        </div>
+
         <div className="space-y-6">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
             <span className="opacity-0 animate-fade-in"> Hi, I'm</span>
